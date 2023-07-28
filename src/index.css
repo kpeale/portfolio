@@ -1,0 +1,743 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ /* border: 2px solid red; */
+}
+
+body{
+  font-family: 'Poppins',  sans-serif;
+  line-height: 1.5;
+  font-size: 0.875rem;
+  background-color: white;
+  /* I will change the color to bisque when moving down and back to white when moving up then add animations  */
+}
+
+/* laptop styles first */
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 2rem;
+}
+.nav-center {
+  max-width: 1170px;
+  margin: auto 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.nav-header {
+  padding: 0;
+}
+
+.heading-primary{
+  text-transform: uppercase;
+  margin-left: 9rem;
+}
+
+.heading-primary--sub2{
+  color:rgba(4, 112, 220, 1) ;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+.links-container {
+  height: auto !important;
+  margin-right: 9rem;
+  
+}
+
+.links {
+  display: flex;
+
+  
+}
+
+.links--{
+  padding: 0;
+  margin: 1.5rem 1.5rem;
+  text-decoration: none;
+text-transform: uppercase;
+color: black;
+transition: all 0.3s ease-in-out;
+}
+
+.links--:hover {
+   box-shadow: inset 0 -8px 0 0 rgba(4, 112, 220, 1);
+}
+
+/* mobile design for naviagtion */
+
+@media screen  and  (max-width:900px){
+  nav {
+      display: flex;
+      flex-direction: column;
+      border: none;
+    border-bottom: 1px solid #eee;
+    justify-content: center;
+      align-items: center;
+      align-content: center;
+      margin-bottom: 0;
+    
+    }
+    
+  .nav-header {
+    display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 1rem;
+    }
+
+  .nav-toggle {
+    display: flex;
+    /* justify-content: end; */
+    
+    font-size: 1.5rem;
+    margin-left: 5rem;
+  color: black;
+  background: white;
+  border-color: transparent;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+.nav-toggle:hover {
+  color: black;
+  transform: rotate(90deg);
+}
+
+.heading-primary {
+  text-transform: uppercase;
+  text-align: center;
+  margin: auto 3.5rem;
+  
+}
+
+.links{
+  display: none;
+  
+}
+
+.active{
+  display: block;
+    background-color: black;
+}
+
+
+.links-- {
+  color: white;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s linear;
+}
+
+.links--:hover {
+  border-bottom: none;
+  background: white;
+  color: black;
+  padding-left: 1.5rem;
+  box-shadow: none;
+}
+
+.links-container {
+  width: 90vw;
+  overflow: hidden;
+  transition: all 0.3s linear;
+  margin-right: 0;
+}
+}
+
+@media screen and (max-width:800px) {
+  nav {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      
+  
+    }
+
+  
+}
+
+@media screen and (max-width:300px) {
+
+    .nav-toggle {
+        
+        font-size: 1.5rem;
+        margin-left: -2rem;
+        
+      }
+
+            .heading-primary {
+              text-transform: uppercase;
+              text-align: left;
+              margin-left: -35px;
+      
+            }
+}
+
+/* Home section */
+.section__home{
+  width: 95vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+ 
+  
+}
+
+.section__home-cnt1{
+  margin-top: 2em;
+}
+
+.section__home-heading{
+  font-size: 3rem;
+}
+
+.section__home-paragraph{
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.section__home-paragraph--span{
+  color: blue;
+}
+
+.section__home-btnbx{
+  margin-top: 2em;
+}
+
+.section__home-btn{
+  text-decoration: none;
+  color: white;
+  background-color: rgba(4, 112, 220, 1);
+  border-radius: 5px;
+  padding: 1em 2em;
+}
+
+/* still home section but picture */
+.section__home-cnt2{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+}
+
+
+.section__home-imgbx{
+  margin-left: 15em;
+}
+
+.section__home-img{
+  width: 28rem;
+}
+
+.section__home-social-link{
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: row;
+ 
+}
+
+.section__home-social-links{
+  margin-right: 1em;
+  font-size: 2.5rem;
+  color: black;
+}
+
+/* large screen design */
+@media screen and (min-width:1400px) {
+  .section__home {
+    margin:  0 auto;
+      
+  
+    }
+}
+
+/* mobile design for home */
+@media screen and (max-width:1090px) {
+  .section__home {
+      width: 90vw;
+       display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+  
+    }
+  .section__home-heading {
+      font-size: 2rem;
+  }
+  
+  .section__home-paragraph {
+      font-size: 2.5rem;
+      font-weight: 600;
+  }
+
+ .section__home-cnt2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+  }
+
+    .section__home-imgbx {
+      margin-left: 15em;
+      margin-top: -20em
+    }
+  
+    .section__home-img {
+      width: 25rem;
+    }
+  
+    .section__home-social-link {
+      margin-left: -2em;
+      display: flex;
+      flex-direction: column;
+      
+  
+    }
+  
+    .section__home-social-links {
+      margin-right: 1em;
+      font-size: 2.5rem;
+      color: black;
+    }
+}
+
+@media screen and (max-width:600px) {
+  .section__home-heading {
+      font-size: 1.5rem;
+    }
+  
+    .section__home-paragraph {
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+
+  .section__home-imgbx {
+      margin-left: 5em;
+      margin-top: -14em
+    }
+  .section__home-img {
+      width: 18em;
+    }
+
+  }
+
+ @media screen and (max-width:400px) {
+
+   .section__home-imgbx {
+     margin-left: 5rem;
+     margin-top: -15em
+   }
+
+   .section__home-img {
+     width: 11.5rem;
+   }
+
+     .section__home-social-link {
+       margin-left: -10px;
+   
+   }
+
+     .section__home-imgbx {
+       margin-left: 3em;
+       margin-top: -15em
+     }
+
+ }
+
+ @media screen and (max-width:300px) {
+  .section__home-btn {
+       padding: 1em ;
+    }
+  .section__home-img {
+      width: 12rem;
+    }
+  .section__home-imgbx {
+      margin-left: 3em;
+      margin-top: -12em
+    }
+  
+  .section__home-social-link {
+      margin-left: -1em;
+      display: flex;
+      flex-direction: column;
+  
+  
+    }
+
+    .section__home-social-links {
+      margin-right: 1em;
+      font-size: 2rem;
+      color: black;
+    }
+
+ }
+
+/* About section for laptop view */
+.section__about{
+  width: 95vw;
+    margin: 0 auto;
+    max-width: 1170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+   
+     
+}
+
+.section__about-heading{
+  font-size: 2.5rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+ color: rgba(4, 112, 220, 1);
+ margin-top: 10rem;
+ /* border-bottom: 2px solid rgba(4, 112, 220, 1); */
+}
+
+.section__about-underline {
+   width: 6rem;
+    height: 0.25rem;
+    background: rgba(4, 112, 220, 1);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section__about-cnt{
+  display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-content: center;
+align-items: center;
+  gap: 8rem;
+  
+}
+
+.section__about-img{
+  width: 15rem;
+  border-radius: .5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.section__about-cnt2-heading{
+  font-size: 1.5rem;
+}
+
+.section__aboutcnt2-parabx{
+  margin-top: 1rem;
+  max-width: 700px;
+}
+
+.section__aboutcnt2-para{
+  font-size: 1.1rem;
+}
+
+/* mobile design for home section */
+@media screen and (max-width:1090px) {
+  .section__about {
+      width: 90vw;
+      margin: 0 auto;
+  
+    }
+
+  .section__about-cnt{
+    display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      gap: 1rem;
+      margin-top: 5em;
+    }
+  
+ .section__about-cnt2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-content: center;
+  align-items: center; */
+ }
+
+ .section__about-cnt2-heading{
+  text-align: center;
+ }
+
+ .section__aboutcnt2-parabx {
+   margin-top: 1rem;
+   max-width: 650px;
+ }
+
+ .section__aboutcnt2-para {
+   font-size: 1rem;
+ }
+}
+
+/* skills page */
+.section__skills {
+  width: 95vw;
+    margin: 0 auto;
+    max-width: 1170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.section__skills-cnt-1{
+  margin-top: 5em;
+}
+
+.section__skills-para{
+  margin-bottom: 1em;
+  font-size: 1.1rem;
+  max-width: 1050px;
+}
+
+/* Skills page for mobile view */
+
+@media screen and (max-width:1090px) {
+.section__skills {
+  width: 90vw;
+    margin: 0 auto;
+}
+
+.section__skills-cnt{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.section__skills-para {
+  margin-bottom: 1em;
+  font-size: 1rem;
+  max-width: 800px;
+}
+}
+
+/* Works page for laptop view*/
+.section__works{
+  width: 95vw;
+    margin: 0 auto;
+    max-width: 1170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+   
+}
+
+.section__works-cnt{
+  margin-top: 5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+    align-items: center;
+    align-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.section__works-box{
+  width: 22rem;
+  height: 15rem;
+  background-color: gray;
+  color: black;
+  margin-bottom: 1em;
+}
+
+.section__works-img{
+  width: 100%;
+  height: 12rem;
+}
+
+.section__works-para{
+  display: block;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.section__works-para:hover {
+  color: palevioletred;
+}
+/* Work page for mobile view  */
+@media screen and (max-width:1180px) {
+  .section__works {
+    width: 90vw;
+      margin: 0 auto;
+  }
+
+    .section__works-cnt {
+      margin-top: 5em;
+      display: flex;
+       gap: 3rem;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-content: center;
+      align-self: center;
+    }
+     .section__works-box {
+       width: 20rem;
+       height: 12rem;
+        background-color: gray;
+          color: black;
+       margin-bottom: 1em;
+     }
+    .section__works-img {
+      width: 100%;
+      height: 8rem;
+    }
+   
+
+}
+
+@media screen and (max-width:1000px) {
+ 
+  .section__works-cnt {
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+  }
+
+  .section__works-box {
+    width: 20rem;
+    height: 12rem;
+    background-color: gray;
+      color: black;
+    margin-bottom: 1em;
+  }
+
+}
+
+@media screen and (max-width:300px) {
+
+  .section__works-box {
+    width: 15rem;
+    height: 13rem;
+    
+  }
+}
+
+/* contacts page for laptop view */
+.section__contacts{
+  width: 95vw;
+    margin: 0 auto;
+    max-width: 1170px;
+    margin-top: 3rem;
+  
+}
+
+.section__contacts-cnt{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.section__contacts-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-top: 3em;
+}
+
+.section__contacts-form-input,
+.section__contacts-form-textarea{
+  display: block;
+  border-radius: 4px;
+  outline: none;
+  border: 2px solid rgba(0, 0, 0, 0.615);
+  padding: 10px 1rem;
+  margin-bottom: 1rem;
+  width: 25rem;
+}
+
+.section__contacts-form-textarea{
+height: 8rem;
+resize: none;
+vertical-align: top;
+  overflow: auto;
+  white-space: pre;
+}
+
+.section__contacts-form-btn{
+  display: flex;
+  justify-content: right;
+}
+
+.section__contacts-btn{
+  background-color: rgba(4, 112, 220, 1);
+  color: white;
+  padding: 10px 1.2rem;
+  border-radius: 4px;
+  border: none;
+}
+
+/* mobile view for contacts page */
+
+@media screen and (max-width:1180px) {
+  .section__contacts {
+    width: 90vw;
+  }
+}  
+
+@media screen and (max-width:600px) {
+  .section__contacts-form-input,
+    .section__contacts-form-textarea {
+      width: 18rem;
+    }
+}
+
+@media screen and (max-width:400px) {
+
+  .section__contacts-form-input,
+  .section__contacts-form-textarea {
+    width: 15rem;
+  }
+}
+
+/* footer */
+.section__footer{
+  background-color: rgba(4, 112, 220, 1);
+  margin-top: 5rem;
+  /* height: 90vw; */
+}
+
+.section__footer-para{
+  color: white;
+  text-align: center;
+}
+
