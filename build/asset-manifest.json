@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a81be4ea.css",
+    "main.js": "/static/js/main.404a5677.js",
+    "static/media/trackerImage.jpg": "/static/media/trackerImage.231d9df6baa74f72c263.jpg",
+    "static/media/moviImagee.jpg": "/static/media/moviImagee.f702a7341132a26f495f.jpg",
+    "static/media/flyerdesign_17072023_214810.png": "/static/media/flyerdesign_17072023_214810.21b5a07e52f2ae1fb585.png",
+    "static/media/countrifyImage.jpg": "/static/media/countrifyImage.bbf20bebca870e065f37.jpg",
+    "static/media/IMG_3527.jpg": "/static/media/IMG_3527.66401fcee3bddd9d31c1.jpg",
+    "static/media/bankifyImg.jpg": "/static/media/bankifyImg.0f7e8a0dc7ce237d5153.jpg",
+    "static/media/adviceImage.jpg": "/static/media/adviceImage.eb66e94d0b37300cca2a.jpg",
+    "static/media/aboutImage.jpeg": "/static/media/aboutImage.7a5a3599951161cba2cb.jpeg",
+    "index.html": "/index.html",
+    "main.a81be4ea.css.map": "/static/css/main.a81be4ea.css.map",
+    "main.404a5677.js.map": "/static/js/main.404a5677.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a81be4ea.css",
+    "static/js/main.404a5677.js"
+  ]
+}
