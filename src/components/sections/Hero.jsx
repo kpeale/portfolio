@@ -11,13 +11,13 @@ const Hero = () => {
     gsap.fromTo(
       '.hero-text h1',
       { y: 50, opacity: 0 },
-      { opacity: 1, y: 0, duration: 1, stagger: 0.2, ease: 'power2.inOut' }
+      { opacity: 1, y: 0, duration: 1.5, stagger: 0.2 }
     );
   });
   return (
     <section
       id='hero'
-      className='relative overflow-hidden'
+      className='relative overflow-hidden '
     >
       <div className='absolute top-0 left-0 z-10'>
         <img
@@ -26,9 +26,9 @@ const Hero = () => {
         />
       </div>
 
-      <div className='hero-layout'>
+      <div className='flex flex-col xl:flex-row items-center justify-center mx-auto my-0 mb-[5rem] gap-10 xl:gap-0'>
         {/* left content */}
-        <header className='flex flex-col justify-center md:w-full w-screen md:px-20 px-5'>
+        <header className='flex flex-col justify-center items-center md:w-full w-screen md:px-20  md:mb-[12rem] lg:mb-[18rem] xl:mb-0'>
           <div className='flex flex-col gap-7'>
             <div className='hero-text'>
               <h1>
@@ -55,22 +55,30 @@ const Hero = () => {
               <h1>into Real Projects</h1>
               <h1>that Deliver Results</h1>
             </div>
-            <p className='text-white-50 md:text-xl relative z-10 pointer-events-none max-w-[350px] sm:max-w-[550px]'>
+            <p className='text-white-50 md:text-xl relative z-10 pointer-events-none max-w-[300px] text-center sm:max-w-[550px]'>
               Hi, I am Kpeale. I am a Frontend-developer and a technical writer.
             </p>
-            <Button
-              className='md:w-80 md:h-16 w-60 h-12 '
-              id='button'
-              text='See my Work'
-            />
+            <div className='flex flex-col items-center justify-center mx-auto'>
+              <Button
+                className='  md:w-80 md:h-16 w-60 h-12'
+                id='button'
+                text='See my Work'
+              />
+            </div>
           </div>
         </header>
         {/* image */}
-        <figure>
+        {/* <figure>
           <div className='hero-3d-layout '>
             <HeroExperience />
           </div>
-        </figure>
+        </figure> */}
+        <div className=' w-[60%] xl:w-[80%] h-[350px] flex items-center justify-center mx-auto my-0 xl:px-20  '>
+          <img
+            src='/images/heroImg.JPG'
+            alt='hero image'
+          />
+        </div>
       </div>
       <AnimatedCounter />
     </section>

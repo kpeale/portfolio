@@ -156,7 +156,7 @@ section {
   }
 
   .app-showcase {
-    @apply w-full mt-20 px-5 md:px-20 py-10 md:py-20 flex items-center justify-center;
+    @apply w-full mt-20 px-5 md:px-20 py-10 md:py-20 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 justify-center mx-auto my-0  items-center gap-4 ;
 
     .showcaselayout {
       @apply flex xl:flex-row flex-col gap-10 justify-between;
@@ -166,7 +166,7 @@ section {
       @apply h-full flex flex-col justify-between xl:w-[60%];
 
       .image-wrapper {
-        @apply xl:h-[70vh] md:h-[50vh] h-96 relative;
+        @apply  h-60 w-60 lg:w-100 relative;
 
         img {
           @apply w-full h-full object-cover rounded-xl absolute inset-0;
