@@ -1,10 +1,15 @@
 import React from 'react';
 import { abilities } from '../../constants';
+import TitleHeader from '../TitleHeader';
 
 const FeaturedCards = () => {
   return (
     <div className='w-full padding-x-lg'>
-      <div className='mx-auto grid-3-cols'>
+      <TitleHeader
+        title='Soft Skills'
+        subtitle=''
+      />
+      <div className='mx-auto grid-3-cols mt-5'>
         {abilities.map(({ imgPath, title, desc }) => (
           <div
             key={title}

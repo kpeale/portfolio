@@ -148,41 +148,54 @@ const techStackIcons = [
 const expCards = [
   {
     review:
-      'Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.',
+      'Kpeale brought creativity and technical expertise to the team, significantly frontend performance of the different companies’ websites we have worked on. Her work has been invaluable in delivering faster experiences.',
     imgPath: '/images/exp1.png',
     logoPath: '/images/logo1.png',
     title: 'Frontend Developer',
-    date: 'January 2023 - Present',
+    date: 'November 2024 - Present',
     responsibilities: [
-      'Developed and maintained user-facing features for the Hostinger website.',
+      'Developed and maintained user-facing features for different companies’ website.',
       'Collaborated closely with UI/UX designers to ensure seamless user experiences.',
       'Optimized web applications for maximum speed and scalability.',
     ],
   },
   {
     review:
-      "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+      'Kpeale’s contributions to the plugin’s website was amazing. She showed mastery in her frontend skills .',
     imgPath: '/images/exp2.png',
     logoPath: '/images/logo2.png',
-    title: 'Full Stack Developer',
-    date: 'June 2020 - December 2023',
+    title: 'Frontend Developer',
+    date: 'June 2024 - September 2024',
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      'Worked with backend engineers to integrate APIs seamlessly with the frontend.',
-      'Contributed to open-source projects that were used with the Docker ecosystem.',
+      'Developed and maintained user-facing features on the website.',
+      'Collaborated closely with UI/UX designers to ensure seamless user experiences.',
+      'Collaborated and worked closley with backend developers.',
     ],
   },
   {
     review:
-      'Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.',
+      'Kpeale’s work on Creator’s web app brought a high level of quality and efficiency. She showed resiliency in learning new tools that she was not used to.',
     imgPath: '/images/exp3.png',
     logoPath: '/images/logo3.png',
-    title: 'React Native Developer',
+    title: 'Frontend Developerr',
     date: 'March 2019 - May 2020',
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      'Improved app performance and user experience through code optimization and testing.',
-      'Coordinated with the product team to implement features based on feedback.',
+      'Developed and maintained user-facing features on the website.',
+      'Worked with sanity as a form of database so that the user can change values on the website themselves.',
+      'Optimized web applications for maximum speed and scalability.',
+    ],
+  },
+  {
+    review:
+      'Kpeale’s work on LocumSpace’s website  brought a high level of quality and efficiency. She worked on the companys website to improve performance.',
+    imgPath: '/images/exp3.png',
+    logoPath: '/images/logo3.png',
+    title: 'Frontend Developerr',
+    date: 'August 2023 - October 2023',
+    responsibilities: [
+      'Developed and maintained user-facing features for the company’s website.',
+      'Collaborated closely with UI/UX designers to ensure seamless user experiences.',
+      'Optimized web applications for maximum speed and scalability.',
     ],
   },
 ];
