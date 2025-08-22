@@ -176,7 +176,7 @@ const expCards = [
     review:
       'Kpeale brought creativity and technical expertise to the team, significantly frontend performance of the different companies’ websites we have worked on. Her work has been invaluable in delivering faster experiences.',
     imgPath: '/images/exp1.png',
-    logoPath: '/images/logo1.png',
+    logoPath: '/images/logos/kp.png',
     title: 'Frontend Developer',
     companyName: 'Looped Reality',
     date: 'November 2024 - Present',
@@ -190,7 +190,7 @@ const expCards = [
     review:
       'Kpeale’s contributions to the plugin’s website was amazing. She showed mastery in her frontend skills .',
     imgPath: '/images/exp2.png',
-    logoPath: '/images/logo2.png',
+    logoPath: '/images/logos/kp.png',
     title: 'Frontend Developer',
     companyName: 'Plugin',
     date: 'June 2024 - September 2024',
@@ -204,7 +204,7 @@ const expCards = [
     review:
       'Kpeale’s work on Creator’s web app brought a high level of quality and efficiency. She showed resiliency in learning new tools that she was not used to.',
     imgPath: '/images/exp3.png',
-    logoPath: '/images/logo3.png',
+    logoPath: '/images/logos/kp.png',
     title: 'Frontend Developer',
     companyName: 'Creator',
     date: 'March 2019 - May 2020',
@@ -218,7 +218,7 @@ const expCards = [
     review:
       'Kpeale’s work on LocumSpace’s website  brought a high level of quality and efficiency. She worked on the companys website to improve performance.',
     imgPath: '/images/exp3.png',
-    logoPath: '/images/logo3.png',
+    logoPath: '/images/logos/kp.png',
     title: 'Frontend Developer',
     companyName: 'Locum Space',
     date: 'August 2023 - October 2023',
@@ -233,7 +233,7 @@ const expCards = [
     review:
       'Kpeale is very diligent, talented and a fast learner. She delivered all her tasks on time ',
     imgPath: '/images/exp3.png',
-    logoPath: '/images/logo3.png',
+    logoPath: '/images/logos/kp.png',
     title: 'Frontend Developer',
     companyName: 'Zuri',
     date: 'August, 2020- October ,2020 ',

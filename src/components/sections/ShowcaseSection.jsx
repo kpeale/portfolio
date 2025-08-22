@@ -70,9 +70,26 @@ const ShowcaseSection = () => {
               alt='ryde'
             />
           </div>
-          <div className='text-content'>
-            <h2>Title of project</h2>
-            <p className='text-white-50 md:text-xl '>text-description</p>
+          <div className='text-content mt-2'>
+            <h2>Quickstay </h2>
+            <p className='text-white-50 text-[16px] max-w-[450px] '>
+              Developed a comprehensive hotel management system for booking and
+              reservation handling.
+            </p>
+            <div className='flex flex-row justify-between items-center gap-2 mt-2'>
+              <a
+                href='https://quickstayy-hotel.netlify.app/'
+                className='text-white-50 text-sm '
+              >
+                View Live Project
+              </a>
+              <a
+                href='https://github.com/kpeale/hotelApp'
+                className='text-white-50 text-sm  '
+              >
+                View on Github
+              </a>
+            </div>
           </div>
         </div>
 
@@ -86,9 +103,26 @@ const ShowcaseSection = () => {
               alt='ryde'
             />
           </div>
-          <div className='text-content'>
-            <h2>Title of project</h2>
-            <p className='text-white-50 md:text-xl '>text-description</p>
+          <div className='text-content mt-2'>
+            <h2>Spotify Clone</h2>
+            <p className='text-white-50 text-[16px] max-w-[450px] '>
+              Created a fully functional music streaming application using local
+              data.
+            </p>
+            <div className='flex flex-row justify-between items-center gap-2 mt-2'>
+              <a
+                href='https://spotify-kpeale.netlify.app/'
+                className='text-white-50 text-sm  '
+              >
+                View Live Project
+              </a>
+              <a
+                href='https://github.com/kpeale/spotify-clone'
+                className='text-white-50 text-sm  '
+              >
+                View on Github
+              </a>
+            </div>
           </div>
         </div>
 
@@ -102,9 +136,27 @@ const ShowcaseSection = () => {
               alt='ryde'
             />
           </div>
-          <div className='text-content'>
-            <h2>Title of project</h2>
-            <p className='text-white-50 md:text-xl '>text-description</p>
+          <div className='text-content mt-2'>
+            <h2>Sleep Tracker</h2>
+            <p className='text-white-50 text-[16px] max-w-[450px] '>
+              Built a comprehensive health monitoring application that tracks
+              user sleep patterns. .
+            </p>
+
+            <div className='flex flex-row justify-between items-center gap-2 mt-2'>
+              <a
+                href='https://sleep-trackerr.netlify.app/'
+                className='text-white-50 text-sm  '
+              >
+                View Live Project
+              </a>
+              <a
+                href='https://github.com/kpeale/sleep-tracker'
+                className='text-white-50 text-sm  '
+              >
+                View on Github
+              </a>
+            </div>
           </div>
         </div>
 
@@ -114,13 +166,30 @@ const ShowcaseSection = () => {
         >
           <div className='image-wrapper'>
             <img
-              src='/images/project-gym.png'
+              src='/images/project-generator.png'
               alt='ryde'
             />
           </div>
-          <div className='text-content'>
-            <h2>Title of project</h2>
-            <p className='text-white-50 md:text-xl '>text-description</p>
+          <div className='text-content mt-2'>
+            <h2>Audiophile</h2>
+            <p className='text-white-50 text-[16px] max-w-[450px] '>
+              Built a modern e-commerce platform specializing in premium
+              electronic gadgets and audio equipment
+            </p>
+            <div className='flex flex-row justify-between items-center gap-2 mt-2'>
+              <a
+                href='https://cv-analyze.netlify.app/'
+                className='text-white-50 text-sm  '
+              >
+                View Live Project
+              </a>
+              <a
+                href='https://github.com/kpeale/Audiophile'
+                className='text-white-50 text-sm  '
+              >
+                View on Github
+              </a>
+            </div>
           </div>
         </div>
 
@@ -134,9 +203,26 @@ const ShowcaseSection = () => {
               alt='ryde'
             />
           </div>
-          <div className='text-content'>
-            <h2>Title of project</h2>
-            <p className='text-white-50 md:text-xl '>text-description</p>
+          <div className='text-content mt-2'>
+            <h2>CV Analyser</h2>
+            <p className='text-white-50 text-[16px] max-w-[450px] '>
+              Built a web application that analyzes CVs for job applications,
+              helping users optimize their resumes.
+            </p>
+            <div className='flex flex-row justify-between items-center gap-2 mt-2'>
+              <a
+                href='https://cv-analyze.netlify.app/'
+                className='text-white-50 text-sm  '
+              >
+                View Live Project
+              </a>
+              <a
+                href='https://github.com/kpeale/CVAnalyser'
+                className='text-white-50 text-sm  '
+              >
+                View on Github
+              </a>
+            </div>
           </div>
         </div>
 
@@ -146,13 +232,24 @@ const ShowcaseSection = () => {
         >
           <div className='image-wrapper'>
             <img
-              src='/images/project-generator.png'
+              src='/images/project-afriprize.png'
               alt='ryde'
             />
           </div>
-          <div className='text-content'>
-            <h2>Title of project</h2>
-            <p className='text-white-50 md:text-xl '>text-description</p>
+          <div className='text-content mt-2'>
+            <h2>Afriprize</h2>
+            <p className='text-white-50 text-[16px] max-w-[450px] '>
+              Built a modern landing page for a company that is responsive and
+              displays their services
+            </p>
+            <div className='mt-2 flex items-center justify-center'>
+              <a
+                href='https://afriprize.com'
+                className='text-white-50 text-sm  '
+              >
+                View Live Project
+              </a>
+            </div>
           </div>
         </div>
       </section>
