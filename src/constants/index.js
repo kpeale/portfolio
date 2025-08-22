@@ -91,24 +91,50 @@ const abilities = [
 
 const techStackImgs = [
   {
-    name: 'React Developer',
+    name: 'HTML ',
+    imgPath: '/images/html.png',
+  },
+  {
+    name: 'CSS',
+    imgPath: '/images/css.png',
+  },
+  {
+    name: 'Javascript',
+    imgPath: '/images/js.png',
+  },
+  {
+    name: 'React',
     imgPath: '/images/logos/react.png',
   },
   {
-    name: 'Python Developer',
-    imgPath: '/images/logos/python.svg',
+    name: 'GIT',
+    imgPath: '/images/logos/git.svg',
+  },
+
+  {
+    name: 'Tailwind CSS',
+    imgPath: '/images/tailwind.png',
+  },
+
+  {
+    name: 'Next JS',
+    imgPath: '/images/nextjs.png',
   },
   {
-    name: 'Backend Developer',
-    imgPath: '/images/logos/node.png',
+    name: 'GSAP',
+    imgPath: '/images/gsap.png',
   },
   {
-    name: 'Interactive Developer',
+    name: 'Typescript',
+    imgPath: '/images/typescript.png',
+  },
+  {
+    name: 'Three',
     imgPath: '/images/logos/three.png',
   },
   {
-    name: 'Project Manager',
-    imgPath: '/images/logos/git.svg',
+    name: 'Firebase',
+    imgPath: '/images/firebase.png',
   },
 ];
 
@@ -152,11 +178,12 @@ const expCards = [
     imgPath: '/images/exp1.png',
     logoPath: '/images/logo1.png',
     title: 'Frontend Developer',
+    companyName: 'Looped Reality',
     date: 'November 2024 - Present',
     responsibilities: [
-      'Developed and maintained user-facing features for different companies’ website.',
-      'Collaborated closely with UI/UX designers to ensure seamless user experiences.',
-      'Optimized web applications for maximum speed and scalability.',
+      'Built responsive websites for multiple clients, ensuring smooth performance across all devices and reducing load times by optimizing code structure ',
+      'Created reusable React and Next.js components with TypeScript that teams now use across 5+ projects, saving development time and maintaining design consistency.',
+      'Connected websites to backend systems using REST APIs and GraphQL, making data display seamlessly for users.',
     ],
   },
   {
@@ -165,11 +192,12 @@ const expCards = [
     imgPath: '/images/exp2.png',
     logoPath: '/images/logo2.png',
     title: 'Frontend Developer',
+    companyName: 'Plugin',
     date: 'June 2024 - September 2024',
     responsibilities: [
-      'Developed and maintained user-facing features on the website.',
-      'Collaborated closely with UI/UX designers to ensure seamless user experiences.',
-      'Collaborated and worked closley with backend developers.',
+      'Improved site loading speed by 20% by cleaning up CSS and JavaScript files and removing unnecessary code.',
+      'Enhanced mobile experience for the platform, leading to a 15% boost in mobile user engagement through better responsive design.',
+      ' Added accessibility features following WCAG guidelines, making the platform usable for people with disabilities.',
     ],
   },
   {
@@ -177,12 +205,13 @@ const expCards = [
       'Kpeale’s work on Creator’s web app brought a high level of quality and efficiency. She showed resiliency in learning new tools that she was not used to.',
     imgPath: '/images/exp3.png',
     logoPath: '/images/logo3.png',
-    title: 'Frontend Developerr',
+    title: 'Frontend Developer',
+    companyName: 'Creator',
     date: 'March 2019 - May 2020',
     responsibilities: [
-      'Developed and maintained user-facing features on the website.',
-      'Worked with sanity as a form of database so that the user can change values on the website themselves.',
-      'Optimized web applications for maximum speed and scalability.',
+      'Developed frontend code that connected smoothly with databases and server systems.',
+      'Learned new programming languages and frameworks to keep up with industry trends and bring fresh ideas to projects.',
+      'Turned design mockups into working website features by collaborating directly with the design team',
     ],
   },
   {
@@ -190,12 +219,28 @@ const expCards = [
       'Kpeale’s work on LocumSpace’s website  brought a high level of quality and efficiency. She worked on the companys website to improve performance.',
     imgPath: '/images/exp3.png',
     logoPath: '/images/logo3.png',
-    title: 'Frontend Developerr',
+    title: 'Frontend Developer',
+    companyName: 'Locum Space',
     date: 'August 2023 - October 2023',
     responsibilities: [
-      'Developed and maintained user-facing features for the company’s website.',
-      'Collaborated closely with UI/UX designers to ensure seamless user experiences.',
-      'Optimized web applications for maximum speed and scalability.',
+      'Built reusable code components that other developers could use in future projects, helping reduce development costs',
+      'Completed special assignments from senior developers, gaining hands-on experience with complex features',
+      'Used various testing tools and content management systems while working with different teams to deliver projects on time.',
+    ],
+  },
+
+  {
+    review:
+      'Kpeale is very diligent, talented and a fast learner. She delivered all her tasks on time ',
+    imgPath: '/images/exp3.png',
+    logoPath: '/images/logo3.png',
+    title: 'Frontend Developer',
+    companyName: 'Zuri',
+    date: 'August, 2020- October ,2020 ',
+    responsibilities: [
+      'Participated in a fast-paced internship program alongside 100+ other developers, completing weekly coding challenges and collaborative projects assigned by industry mentors.',
+      'Learned modern web development practices through hands-on assignments, including HTML5, CSS3, and JavaScript fundamentals in a structured learning environment',
+      ' Collaborated with fellow interns on team-based projects, practicing version control with Git and working in an agile development workflow',
     ],
   },
 ];
@@ -217,45 +262,45 @@ const expLogos = [
 
 const testimonials = [
   {
-    name: 'Esther Howard',
+    name: 'Ajibola Ajiboye',
     mentions: '@estherhoward',
     review:
-      'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
+      'I can’t say enough good things about Kpeale. She balances being a nurse and a frontend developer while still finding time to mentor others. Her dedication and problem-solving skills are inspiring.',
     imgPath: '/images/client1.png',
   },
   {
-    name: 'Wade Warren',
+    name: 'Favorite Jerome',
     mentions: '@wadewarren',
     review:
-      'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+      'Working with Kpeale was a fantastic experience. She explains complex concepts in a simple way, making learning frontend development enjoyable. Her attention to detail and willingness to help others is unmatched.',
     imgPath: '/images/client3.png',
   },
   {
-    name: 'Guy Hawkins',
+    name: 'Daniel Obisanya',
     mentions: '@guyhawkins',
     review:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      'Collaborating with Kpeale was an absolute pleasure. Her professionalism, energy, and consistency shine through in everything she does. She’s passionate about mentoring developers and her enthusiasm for tech truly stands out. If you’re seeking growth and clarity, Kpeale is the ideal guide.',
     imgPath: '/images/client2.png',
   },
   {
-    name: 'Marvin McKinney',
+    name: 'Benjamin Ogunrika',
     mentions: '@marvinmckinney',
     review:
-      'Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.',
+      'Kpeale is such a pleasure to learn from. She breaks down topics in a way that’s easy to understand, especially for beginners. Her journey from nursing into tech is inspiring and her work always feels relatable.',
     imgPath: '/images/client5.png',
   },
   {
-    name: 'Floyd Miles',
+    name: 'Paul Eke',
     mentions: '@floydmiles',
     review:
-      'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!',
+      'Kpeale’s expertise in frontend development is impressive. She creates clean, functional designs while also mentoring others to do the same. Her consistency and passion for helping others improve makes her a true professional!',
     imgPath: '/images/client4.png',
   },
   {
-    name: 'Albert Flores',
+    name: 'Abigael Ayo-Olalusi',
     mentions: '@albertflores',
     review:
-      'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.',
+      'Kpeale was a pleasure to work with. She listens carefully, understands what people need, and delivers value beyond expectations. Her mix of technical skill, mentorship, and creativity is truly top-notch.',
     imgPath: '/images/client6.png',
   },
 ];
@@ -264,18 +309,23 @@ const socialImgs = [
   {
     name: 'insta',
     imgPath: '/images/insta.png',
+    linkPath:
+      'https://www.instagram.com/kpeal_eeee/profilecard/?igsh=Y2EwamJvaW0ybnJs',
   },
   {
     name: 'fb',
     imgPath: '/images/fb.png',
+    linkPath: '#',
   },
   {
     name: 'x',
     imgPath: '/images/x.png',
+    linkPath: 'https://x.com/prud_ie',
   },
   {
     name: 'linkedin',
     imgPath: '/images/linkedin.png',
+    linkPath: 'https://www.linkedin.com/in/kpeale-frontend-queen-65bbaa1a6/',
   },
 ];
 

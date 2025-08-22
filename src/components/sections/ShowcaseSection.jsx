@@ -82,7 +82,7 @@ const ShowcaseSection = () => {
         >
           <div className='image-wrapper'>
             <img
-              src='/images/quickstayy.png'
+              src='/images/project-spotify.png'
               alt='ryde'
             />
           </div>
@@ -98,7 +98,7 @@ const ShowcaseSection = () => {
         >
           <div className='image-wrapper'>
             <img
-              src='/images/quickstayy.png'
+              src='/images/project-sleep.png'
               alt='ryde'
             />
           </div>
@@ -114,7 +114,7 @@ const ShowcaseSection = () => {
         >
           <div className='image-wrapper'>
             <img
-              src='/images/quickstayy.png'
+              src='/images/project-gym.png'
               alt='ryde'
             />
           </div>
@@ -130,7 +130,7 @@ const ShowcaseSection = () => {
         >
           <div className='image-wrapper'>
             <img
-              src='/images/quickstayy.png'
+              src='/images/project-cv.png'
               alt='ryde'
             />
           </div>
@@ -146,7 +146,7 @@ const ShowcaseSection = () => {
         >
           <div className='image-wrapper'>
             <img
-              src='/images/quickstayy.png'
+              src='/images/project-generator.png'
               alt='ryde'
             />
           </div>
