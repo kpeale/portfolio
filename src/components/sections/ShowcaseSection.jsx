@@ -166,7 +166,7 @@ const ShowcaseSection = () => {
         >
           <div className='image-wrapper'>
             <img
-              src='/images/project-generator.png'
+              src='/images/project-audiophile.png'
               alt='ryde'
             />
           </div>
@@ -178,13 +178,13 @@ const ShowcaseSection = () => {
             </p>
             <div className='flex flex-row justify-between items-center gap-2 mt-2'>
               <a
-                href='https://cv-analyze.netlify.app/'
+                href='https://audiophile-storee.netlify.app/'
                 className='text-white-50 text-sm  '
               >
                 View Live Project
               </a>
               <a
-                href='https://github.com/kpeale/Audiophile'
+                href='https://github.com/kpeale/audiophile-store'
                 className='text-white-50 text-sm  '
               >
                 View on Github
