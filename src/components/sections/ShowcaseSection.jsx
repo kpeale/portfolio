@@ -211,7 +211,7 @@ const ShowcaseSection = () => {
             </p>
             <div className='flex flex-row justify-between items-center gap-2 mt-2'>
               <a
-                href='https://cv-analyze.netlify.app/'
+                href='https://cv-analyser-nu.vercel.app/'
                 className='text-white-50 text-sm  '
               >
                 View Live Project
