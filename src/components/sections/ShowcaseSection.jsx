@@ -232,19 +232,19 @@ const ShowcaseSection = () => {
         >
           <div className='image-wrapper'>
             <img
-              src='/images/project-afriprize.png'
+              src='/images/project-gym.png'
               alt='ryde'
             />
           </div>
           <div className='text-content mt-2'>
-            <h2>Afriprize</h2>
+            <h2>Evogym</h2>
             <p className='text-white-50 text-[16px] max-w-[450px] '>
-              Built a modern landing page for a company that is responsive and
+              Built a modern landing page for a gym that is responsive and
               displays their services
             </p>
             <div className='mt-2 flex items-center justify-center'>
               <a
-                href='https://afriprize.com'
+                href='https://kpeale-evogym.netlify.app/'
                 className='text-white-50 text-sm  '
               >
                 View Live Project
