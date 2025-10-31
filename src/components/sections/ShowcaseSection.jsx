@@ -232,14 +232,15 @@ const ShowcaseSection = () => {
         >
           <div className='image-wrapper'>
             <img
-              src='/images/project-gym.png'
+              src='/images/apple.png'
               alt='ryde'
             />
           </div>
           <div className='text-content mt-2'>
             <h2>Apple’s Macbook Clone</h2>
             <p className='text-white-50 text-[16px] max-w-[450px] '>
-               I cloned the popular apple website using REACT, Three.JS and GSAP for mind blowing 3d animations
+              I cloned the popular apple website using REACT, Three.JS and GSAP
+              for mind blowing 3d animations
             </p>
             <div className='flex flex-row justify-between items-center gap-2 mt-2'>
               <a
@@ -249,7 +250,7 @@ const ShowcaseSection = () => {
                 View Live Project
               </a>
 
-               <a
+              <a
                 href='https://github.com/kpeale/apple'
                 className='text-white-50 text-sm  '
               >

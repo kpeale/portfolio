@@ -265,45 +265,46 @@ const testimonials = [
     name: 'Ajibola Ajiboye',
     mentions: '@estherhoward',
     review:
-      'I can’t say enough good things about Kpeale. She balances being a nurse and a frontend developer while still finding time to mentor others. Her dedication and problem-solving skills are inspiring.',
+      'Kpeale is an exceptional frontend developer with an eye for detail. Her efficiency and ability to turn complex ideas into clean, functional designs make her a valuable teammate on any project.',
     imgPath: '/images/client1.png',
   },
   {
     name: 'Favorite Jerome',
     mentions: '@wadewarren',
     review:
-      'Working with Kpeale was a fantastic experience. She explains complex concepts in a simple way, making learning frontend development enjoyable. Her attention to detail and willingness to help others is unmatched.',
+      'Working with Kpeale was a fantastic experience. She explains complex frontend concepts in the simplest way, ensuring every team member is on the same page. Her technical competence and consistency are outstanding.',
     imgPath: '/images/client3.png',
   },
   {
     name: 'Daniel Obisanya',
     mentions: '@guyhawkins',
     review:
-      'Collaborating with Kpeale was an absolute pleasure. Her professionalism, energy, and consistency shine through in everything she does. She’s passionate about mentoring developers and her enthusiasm for tech truly stands out. If you’re seeking growth and clarity, Kpeale is the ideal guide.',
+      'Collaborating with Kpeale was an absolute pleasure. Her professionalism, problem-solving mindset, and strong understanding of frontend architecture consistently improve team productivity. She’s truly dedicated to excellence.',
     imgPath: '/images/client2.png',
   },
   {
     name: 'Benjamin Ogunrika',
     mentions: '@marvinmckinney',
     review:
-      'Kpeale is such a pleasure to learn from. She breaks down topics in a way that’s easy to understand, especially for beginners. Her journey from nursing into tech is inspiring and her work always feels relatable.',
+      'Kpeale’s approach to frontend development is both structured and creative. She writes efficient, scalable code and has a great talent for mentoring beginners to build confidence in their craft.',
     imgPath: '/images/client5.png',
   },
   {
     name: 'Paul Eke',
     mentions: '@floydmiles',
     review:
-      'Kpeale’s expertise in frontend development is impressive. She creates clean, functional designs while also mentoring others to do the same. Her consistency and passion for helping others improve makes her a true professional!',
+      'Kpeale’s mastery of frontend technologies is impressive. She builds responsive, high-performing interfaces and consistently meets deadlines without compromising quality. A true professional through and through!',
     imgPath: '/images/client4.png',
   },
   {
     name: 'Abigael Ayo-Olalusi',
     mentions: '@albertflores',
     review:
-      'Kpeale was a pleasure to work with. She listens carefully, understands what people need, and delivers value beyond expectations. Her mix of technical skill, mentorship, and creativity is truly top-notch.',
+      'Kpeale delivers beyond expectations every single time. Her mix of technical skill, attention to performance, and clear communication make her one of the most reliable frontend developers I’ve worked with.',
     imgPath: '/images/client6.png',
   },
 ];
+
 
 const socialImgs = [
   {
