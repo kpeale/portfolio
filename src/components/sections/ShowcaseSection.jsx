@@ -237,17 +237,23 @@ const ShowcaseSection = () => {
             />
           </div>
           <div className='text-content mt-2'>
-            <h2>Evogym</h2>
+            <h2>Apple’s Macbook Clone</h2>
             <p className='text-white-50 text-[16px] max-w-[450px] '>
-              Built a modern landing page for a gym that is responsive and
-              displays their services
+               I cloned the popular apple website using REACT, Three.JS and GSAP for mind blowing 3d animations
             </p>
-            <div className='mt-2 flex items-center justify-center'>
+            <div className='flex flex-row justify-between items-center gap-2 mt-2'>
               <a
-                href='https://kpeale-evogym.netlify.app/'
+                href='https://apple-clone-lac-gamma.vercel.app/'
                 className='text-white-50 text-sm  '
               >
                 View Live Project
+              </a>
+
+               <a
+                href='https://github.com/kpeale/apple'
+                className='text-white-50 text-sm  '
+              >
+                View on Github
               </a>
             </div>
           </div>
