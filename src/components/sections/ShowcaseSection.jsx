@@ -232,15 +232,14 @@ const ShowcaseSection = () => {
         >
           <div className='image-wrapper'>
             <img
-              src='/images/project-gym.png'
+              src='/images/apple.png'
               alt='ryde'
             />
           </div>
           <div className='text-content mt-2'>
-            <h2>Evogym</h2>
+            <h2> Macbook Clone</h2>
             <p className='text-white-50 text-[16px] max-w-[450px] '>
-              Built a modern landing page for a gym that is responsive and
-              displays their services
+              I cloned the popular apple website using REACT, Three.JS and GSAP for mind blowing 3d animations 
             </p>
             <div className='mt-2 flex items-center justify-center'>
               <a
